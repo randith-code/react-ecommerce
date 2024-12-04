@@ -15,10 +15,12 @@ import { Label } from "@/components/ui/label";
 
 import { useAuth } from "@/contexts/AuthContext";
 import { defaultuser } from "@/helper";
+import { useNotification } from "@/contexts/NotificationContext";
 
 const Login = () => {
   const navigate = useNavigate();
   const user = useAuth();
+  const notifications = useNotification();
 
   const validationSchema = Yup.object({
     email: Yup.string()
@@ -39,9 +41,13 @@ const Login = () => {
         values.password === defaultuser.password
       ) {
         user.login(defaultuser.username, defaultuser.username);
+        notifications.showNotification("Login sucessfully", "success");
         navigate("/");
       } else {
-        alert("Invalid email or password. Please try again.");
+        notifications.showNotification(
+          "Invalid email or password. Please try again.",
+          "error"
+        );
       }
     },
   });

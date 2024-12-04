@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Earbuds",
+    "price": 49.99,
+    "description": "High-quality wireless earbuds with noise cancellation.",
+    "image": "/src/assets/ear buds.jpg",
+    "image_alt": "Black wireless earbuds in a charging case"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "price": 699.0,
+    "description": "Latest model smartphone with a stunning display and fast performance.",
+    "image": "/src/assets/smart phone.jpg",
+    "image_alt": "Sleek smartphone with a large edge-to-edge display"
+  },
+  {
+    "id": 3,
+    "name": "Gaming Laptop",
+    "price": 1299.99,
+    "description": "Powerful gaming laptop with high-end graphics and cooling system.",
+    "image": "/src/assets/laptop.jpg",
+    "image_alt": "Gaming laptop with RGB keyboard and modern design"
+  },
+  {
+    "id": 4,
+    "name": "Smartwatch",
+    "price": 199.99,
+    "description": "Stylish smartwatch with fitness tracking and customizable watch faces.",
+    "image": "/src/assets/smart phone.jpg",
+    "image_alt": "Smartwatch with a round dial and leather strap"
+  },
+  {
+    "id": 5,
+    "name": "Bluetooth Speaker",
+    "price": 59.99,
+    "description": "Portable Bluetooth speaker with deep bass and long battery life.",
+    "image": "/src/assets/bluetooth speacker.jpg",
+    "image_alt": "Compact Bluetooth speaker with a modern cylindrical design"
+  }
+]
